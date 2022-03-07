@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* Contact Pagge */
+
+a#contact, a#contact:visited
+{
+	text-decoration: none;
+	color:#08395e;
+}
+a#contact:hover, a#contact:active
+{
+	color:darkblue;
+	text-decoration: underline;
+}
