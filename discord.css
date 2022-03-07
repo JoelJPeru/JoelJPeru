@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* Discord CSS */
+Iframe
+{
+	margin:auto;
+}
+.flexboxnohovdisc
+{
+	flex:33%;
+	padding:5;
+	text-align:center;
+	transition:.5s;
+	font-size:15px;
+	min-height:750px;
+}
+a
+{
+	color:#08395e;
+	text-decoration: none;
+	transition: .25s;
+}
+a:hover
+{
+	color:darkblue;
+	text-decoration: underline;
+	transition: .25s;
+}

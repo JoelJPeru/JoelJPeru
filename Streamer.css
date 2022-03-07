@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+Body
+{
+	background-color:silver;
+}
+.flex-containerstream
+{
+	display:flex;
+	flex-direction:row;
+	padding: 10px;
+	margin:auto;
+	min-height:800px;
+	border-color:#08395e;
+	border-style:solid;
+	border-width: thick;
+	background-image: url("Images/Silverback3.png");
+}
+.followgrid
+{
+	margin:auto;
+	height:auto;
+	display:flex;
+	flex-direction: row;
+}
+.followlinks
+{
+	flex:33%;
+}
+img.follow
+{
+	max-width:10%;
+	transition: .5s;
+	padding:10px;
+}
+img.follow:hover
+{
+	/*box-shadow: 0px 8px 16px 0px #0f69ac;
+	border-radius: 10px;*/
+	max-width:12%;
+	transition: .5s;
+}
+a.follow
+{
+	color:#08395e;
+	text-decoration:none;
+}
+a.follow:hover
+{
+	text-decoration:underline;
+	font-size:25px;
+}
+iframe, iframe:hover
+	{
+		max-height:100%;
+		max-width:100%;
+		transition:.5s;
+	}
+
+/*TrexSkittles*/
+.columnTrex
+{
+	background-color:Pink;
+	border-radius:50px;
+	padding:10px;
+	color:white;
+}
+.flex-containerstreamRex
+{
+	display:flex;
+	flex-direction:row;
+	padding: 10px;
+	margin:auto;
+	min-height:800px;
+	border-color:pink;
+	border-style:solid;
+	border-width: thick;
+	background-image: url("Images/Silverback3.png");
+}
+.flexboxRex
+{
+	flex:33%;
+	padding:5;
+	text-align:center;
+	transition:.5s;
+	background-image:url("images/silverback3.png");
+	background-color:silver;
+	font-size:15px;
+	height:600px;
+}
+.flexboxRex:hover
+{
+	z-index:1;
+	flex:70%;
+	font-size:22px;
+	transition:.5s;
+	color:black;
+	display:block;
+	box-shadow: 0px 8px 16px 0px pink;
+}
+
+/*Responsive*/
+
+@media (max-width:800px)
+{
+	img.follow
+{
+	max-width:50%;
+	transition: .5s;
+}
+img.follow:hover
+{
+	max-width:55%;
+	transition: .5s;
+}
+a.follow
+{
+	color:#08395e;
+	text-decoration:none;
+	
+}
+a.follow:hover
+{
+	text-decoration:underline;
+	font-size:25px;
+}
+	.flex-containerstream, .flex-containerstreamRex
+	{
+		display:flex;
+		flex-direction: column;		
+	}
+	.flexboxnohov, .flexboxnohov:hover
+{
+	flex:33%;
+	padding:5;
+	text-align:center;
+	transition:.5s;
+	font-size:15px;
+	margin-top:300px;
+	min-height: 1000px;
+}
+iframe, iframe:hover
+	{
+		max-height:100%;
+		transition:.5s;
+		max-width:100%;
+	}
+}
